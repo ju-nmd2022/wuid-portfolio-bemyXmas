@@ -43,8 +43,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #f2d055;
-    background-color: #9238d6;
+    color: #fbfbfb;
+    background-color: #000000;
     border-radius: 5px;
     padding-left: 5px;
 }
@@ -86,5 +86,9 @@ img {
 
 footer{
     background-color: blanchedalmond;
+}
+
+.navigation-style{
+    color:#000000;
 }
 
