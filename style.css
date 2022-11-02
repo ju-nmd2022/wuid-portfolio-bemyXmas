@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(0,0,0,1));
+    background-image: linear-gradient(to bottom right, rgba(0,0,0,0), rgb(14, 176, 221));
 }
 
 .container {
@@ -55,7 +55,7 @@ h3 {
 }
 
 .column {
-    columns: 2;
+    columns: 1;
 }
 
 li:hover {
@@ -68,9 +68,9 @@ li:hover {
     color:tomato;
 }
 
-img {
-    width: 20%;
-    position: fixed;
+.image {
+    width: 30%;
+    float: right;
     right: 10em;
     top: 7em;
 }
@@ -90,5 +90,10 @@ footer{
 
 .navigation-style{
     color:#000000;
+}
+
+.navigation-styl:hover{
+    font-weight: bold;
+    color:tomato;
 }
 
