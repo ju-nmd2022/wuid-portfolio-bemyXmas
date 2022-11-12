@@ -80,6 +80,14 @@ li:hover {
     width: 100%;
 }
 
+.work-image {
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .intro{
     font-size:larger;
 }
@@ -100,6 +108,18 @@ footer{
 .navigation-styl:hover{
     font-weight: bold;
     color:tomato;
+}
+
+.work-style {
+    font-size: large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.work-header {
+    font-size: larger;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 @media screen and (min-width: 450px) and (max-width: 2500px) {
