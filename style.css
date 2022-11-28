@@ -73,12 +73,21 @@ li:hover {
 }
 
 .image {
-    padding-top: 5%;
+    padding-top: 2%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
+
+.image:hover {
+    animation-name: hero-img;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+}
+
 
 .work-image {
     padding-top: 3%;
@@ -120,6 +129,61 @@ footer{
     font-size: larger;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.hero-head:hover {
+    animation-name: hero-headline;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+  }
+  
+@keyframes hero-headline {
+    0% {
+      background-color: rgb(255, 255, 255);
+      color: black;
+    }
+    25% {
+        background-color: rgb(14, 176, 221);
+        color: black;
+      }
+    50% {
+      background-color: rgb(13, 74, 179);
+      color: black;
+    }
+    75% {
+        background-color: rgb(4, 4, 137);
+        color: beige;
+      }
+    100% {
+      background-color: rgb(0, 0, 0);
+      color: beige;
+    }
+}
+
+@keyframes hero-img {
+    0% {
+        transform: scale(1) rotate(0deg);
+      }
+    12% {
+        transform: scale(1) rotate(-60deg);
+      }
+    25% {
+        transform: scale(1) rotate(-120deg);
+      }
+    50% {
+        transform: scale(1) rotate(-180deg);
+      }
+    75% {
+        transform: scale(1) rotate(-240deg);
+      }
+    86% {
+        transform: scale(1) rotate(-300deg);
+      }
+    100% {
+        transform: scale(1) rotate(-360deg);
+      }
 }
 
 @media screen and (min-width: 450px) and (max-width: 2500px) {
